@@ -13,6 +13,7 @@ import {Hero} from './hero';
         </div>
       </div>
     `,
+    inputs: ['hero']
 })
 export class HeroDetailComponent {
     public hero: Hero;
